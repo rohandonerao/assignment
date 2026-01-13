@@ -1,14 +1,5 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: PetPerformanceScreen(),
-    ),
-  );
-}
-
 class PetPerformanceScreen extends StatefulWidget {
   const PetPerformanceScreen({super.key});
 
@@ -525,8 +516,8 @@ class _StatImageCard extends StatelessWidget {
                   // Base image (The background icon)
                   Image.asset(
                     image,
-                    width: 45 * scale,
-                    height: 45 * scale,
+                    width: 35 * scale,
+                    height: 35 * scale,
                     fit: BoxFit.contain,
                   ),
                   // Overlay image (The small icon in the center)
